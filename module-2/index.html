@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>showroom</title>
+</head>
+<style >
+	/*basic style*/
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: white;
+	}
+	h1 {
+		margin: 100px;
+		text-align: center;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 200%;
+	}
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	.sub1 {
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: red;
+		
+	}
+	.sub2 {
+		float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: yellow;
+		
+	}
+	.sub3 {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: green;
+		
+	}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: gray;
+		font-family: times new roman;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+	
+	.row {
+		width: 90%;
+	}
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<body >
+<h1>car dealer</h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub1">Suv</p>
+			<p class="content">
+Sport utility vehicle (SUV) is a category of motor vehicles that combine elements of road-going passenger cars with features from off-road vehicles, such as raised ground clearance and four-wheel drive. There is no commonly agreed definition of an SUV, and usage varies between countries. Some definitions claim that an SUV must be built on a light truck chassis; however, broader definitions consider any vehicle with off-road design features to be an SUV. A crossover SUV is defined as an SUV built with a unibody construction (as per passenger cars), however in many cases crossovers are simply referred to as SUVs. In some countries—such as the United States—SUVs have been classified as "light trucks", resulting in more lenient regulations compared to passenger cars.we have a variety of SUVs like offroaders, compact SUV, high end luxury SUVs we also specialise in making customised offroaders
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub2">sedan</p>
+			<p class="content">
+				A sedan, or saloon, is a passenger car in a three-box configuration with separate compartments for engine, passenger, and cargo.Sedan's first recorded use as a name for a car body was in 1912. The name comes from a 17th-century development of a litter, the sedan chair, a one-person enclosed box with windows and carried by porters.Variations of the sedan style of body include: close-coupled sedan, club sedan, convertible sedan, fastback sedan, hardtop sedan, notchback sedan and sedanet/sedanette.
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="sub3">compact</p>
+			<p class="content">
+Compact car is a vehicle size class — predominantly used in North America — that sits between subcompact cars and mid-size cars. The present-day definition is equivalent to the European C-segment or the British term "small family car". However, prior to the downsizing of the United States car industry in the 1970s and 1980s, larger vehicles with wheelbases up to 110 in (2.79 m) were considered "compact cars" in the United States.In Japan, small size passenger vehicle is a registration category that sits between kei cars and regular cars, based on overall size and engine displacement limits.
+			</p>
+
+	</div>
+</body>
+</html>
